@@ -1,0 +1,7 @@
+# 한 줄 주석 
+
+# 해당 파일에 설정 작성 시 프로젝트 전반적으로 설정이 적용됨 
+#save 시 UTF-8 로 설정!
+# application.properties 우클릭 properties : text file encoding : utf-8 적용 
+
+spring.application.name=demoProject1

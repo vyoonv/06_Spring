@@ -1,0 +1,10 @@
+# 한 줄 주석 
+
+# 해당 파일에 설정 작성 시 프로젝트 전반적으로 설정이 적용됨 
+# save 시 UTF-8 로 설정!
+# application.properties 우클릭 properties : text file encoding : utf-8 적용 
+
+spring.application.name=demoProject1
+
+server.port=80
+# 포트 번호를 80으로 바꾼 것 http 통신 기본 포트가 80 -> localhost만 입력해도 서버 동작 

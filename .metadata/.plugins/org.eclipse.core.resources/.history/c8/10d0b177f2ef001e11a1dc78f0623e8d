@@ -1,0 +1,25 @@
+# 한 줄 주석 
+
+# 해당 파일에 설정 작성 시 프로젝트 전반적으로 설정이 적용됨 
+# save 시 UTF-8 로 설정!
+# application.properties 우클릭 properties : text file encoding : utf-8 적용 
+
+# 어플리케이션(프로그램) 이름 
+spring.application.name=demoProject1
+
+
+server.port=80
+# ㄴ> 포트 번호를 80으로 변경 
+# http 통신 기본 포트가 80 -> localhost만 입력해도 서버 동작 
+# Tomcat initialized with port 80 (http)
+# run as spring boot app 
+# 브라우저 자동 시작되지 않기 때문에 주소창에 localhost 입력 + 확인 
+# localhost:8080 입력하면 사이트 연결할 수 없음 
+
+
+# Spring DevTools : 자동 리로드, 서버 재시작 설정  
+spring.devtools.livereload.enabled=true
+spring.devtools.restart.enabled=true
+spring.thymeleaf.cache=false
+
+
