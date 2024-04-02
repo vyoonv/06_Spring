@@ -28,9 +28,7 @@ public class ExampleController {
 	
 	
 	@GetMapping("example") // /example GET 방식 요청 매핑 
-	public String exampleMethod() {
-		
-		
+	public String exampleMethod() {		
 		
 		// forward 하려는 html 파일 경로 작성 
 		// 단, ViewResolver가 제공하는 
